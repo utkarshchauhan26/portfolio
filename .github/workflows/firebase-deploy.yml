@@ -1,0 +1,60 @@
+name: Firebase Hosting CI/CD
+
+on:
+  push:
+    branches:
+      - main  # This ensures that the action runs on every push to the 'main' branch
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    # Checkout the code
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    # Set up Node.js (for Firebase CLI)
+    - name: Set up Node.js 18.x
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18.x'  # Specify the Node.js version you want to use
+
+    # Install dependencies inside the frontend folder
+    - name: Install dependencies
+      run: |
+        npm install -g firebase-tools
+        npm install
+      working-directory: frontend  # Ensure the command runs in the frontend directory
+
+
+    # Set Up the environment Variabels 
+    - name: Set up environment Variables
+      run: |
+        echo "VITE_ENTRY_PASSWORD = ${{secrets.VITE_ENTRY_PASSWORD}}" >> frontend/.env
+        echo "VITE_ADMIN_DASHBOARD_URL=${{secrets.VITE_ADMIN_DASHBOARD_URL}}" >> frontend/.env
+
+
+    # Build the React app
+    - name: Build React app
+      run: npm run build
+      working-directory: frontend
+      env: 
+        VITE_ENTRY_PASSWORD: ${{ secrets.VITE_ENTRY_PASSWORD }} # Inject secret
+        VITE_ADMIN_DASHBOARD_URL: ${{secrets.VITE_ADMIN_DASHBOARD_URL}} 
+        VITE_GITHUB_REPO_TOCKEN: ${{ secrets.VITE_GITHUB_REPO_TOCKEN }}
+
+
+
+    # # Set up Google Cloud credentials
+    # - name: Authenticate with Google Cloud
+    #   env:
+    #     GOOGLE_APPLICATION_CREDENTIALS: ${{ runner.temp }}/firebase-key.json
+    #   run: echo "${{ secrets.GOOGLE_APPLICATION_CREDENTIALS_JSON }}" > $GOOGLE_APPLICATION_CREDENTIALS
+
+
+    # Deploy to Firebase
+    - name: Deploy to Firebase
+      run: firebase deploy --only hosting --project jaimin-bariya --token ${{ secrets.FIREBASE_AUTH_TOKEN }}
+      working-directory: frontend  # Ensure the command runs in the frontend directory
+
