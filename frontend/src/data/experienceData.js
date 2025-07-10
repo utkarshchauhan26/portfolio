@@ -17,8 +17,8 @@ const AllExperience = [
     logo: FreelancerLogo,
   },
     {
-    company: "Dev.to",
-    role: "Technical Content Writer",
+    company: "Pixel Life",
+    role: "Ceo",
     startDate: "SEP 2023",
     endDate: "PRESENT",
     description: [
