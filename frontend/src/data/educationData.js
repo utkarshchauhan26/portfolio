@@ -10,11 +10,14 @@ const AllEducation = [
     // logo: FreelancerLogo
   },
   {
-    company: "May Be Yours",
-    role: "Product Manager",
-    startDate: "20xx",
-    endDate: "20xx",
-    description: [],
+    company: "Angels Academy Senior Sec School",
+    role: "Student",
+    startDate: "2005",
+    endDate: "2021",
+    description: [
+        "10th marks 84%",
+        "12th marks 75%"
+    ],
     // logo: FreelancerLogo
   },
 ];
