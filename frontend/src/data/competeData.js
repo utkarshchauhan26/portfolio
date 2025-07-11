@@ -13,10 +13,10 @@ const AllBadges = [
 
 const AllHackathons = [
   {
-    name: "Odoo",
+    name: "Aws",
     description:
-      "Hackathon Wins: Highlight any hackathons you’ve won or placed highly in. Include brief descriptions of the projects, your role, the technologies used, and any prizes.",
-    technology: ["react", "django", "tailwind"],
+      "Learned about aws and how to fix ,deploy and make infrasture better ",
+    technology: ["aws"],
   },
   {
     name: "Amazon ML Hackathon",
