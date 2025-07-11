@@ -3,19 +3,6 @@
 import { GitHubLogo, FreelancerLogo , DevToLogo} from "@/assets/images";
 
 const AllExperience = [
-  {
-    company: "Unified Mentor",
-    role: "ML Developer Intern",
-    startDate: "DEC 2024",
-    endDate: "FEB 2025",
-    description: [
-      "At Unified Mentor, my work involves designing and implementing advanced machine learning models to solve real-world problems effectively.",
-      "Built a classification model to identify Instagram fake accounts with 95% accuracy.",
-      "Optimized data preprocessing pipelines, reducing runtime by 20%.",
-      "Collaborated with the team to deploy AI solutions, leveraging TensorFlow and AWS Educate for scalable performance.",
-    ],
-    logo: FreelancerLogo,
-  },
     {
     company: "Pixel Life",
     role: "Ceo",
