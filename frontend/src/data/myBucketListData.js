@@ -1,523 +1,23 @@
 /** @format */
 
 const myBucketList = [
-  // 1 - Gym Bucket List
+ // 2 - Life Skills Bucket List ð§ 
   {
-    name: "Gym Bucket List 💪✨",
-    haveSubTypes: true,
-    Types: [
-      {
-        name: "Push-Ups Mastery 🤜🤛",
-        list: [
-          {
-            action: "20 regular push-ups in one set",
-            isDone: true,
-            haveSideMSG: true,
-            message: "Completed on 2024-01-10",
-          },
-          {
-            action: "30 regular push-ups in one set",
-            isDone: true,
-            haveSideMSG: false,
-            message: "",
-          },
-          {
-            action: "40 regular push-ups in one set",
-            isDone: true,
-            haveSideMSG: false,
-            message: "",
-          },
-          {
-            action: "50 regular push-ups in one set",
-            isDone: false,
-            haveSideMSG: false,
-            message: "",
-          },
-          {
-            action: "70 regular push-ups in one set",
-            isDone: false,
-            haveSideMSG: false,
-            message: "",
-          },
-          {
-            action: "101 regular push-ups in one set 🏆",
-            isDone: false,
-            haveSideMSG: false,
-            message: "",
-          },
-          {
-            action: "10 one-arm push-ups per arm 🦾",
-            isDone: false,
-            haveSideMSG: false,
-            message: "",
-          },
-          {
-            action: "16 one-arm push-ups per arm",
-            isDone: false,
-            haveSideMSG: false,
-            message: "",
-          },
-          {
-            action: "20 one-arm push-ups per arm",
-            isDone: false,
-            haveSideMSG: false,
-            message: "",
-          },
-          {
-            action: "10 explosive clap push-ups 👏🔥",
-            isDone: false,
-            haveSideMSG: false,
-            message: "",
-          },
-          {
-            action: "16 explosive clap push-ups",
-            isDone: false,
-            haveSideMSG: false,
-            message: "",
-          },
-        ],
-      },
-
-      {
-        name: "Pull-Ups & Chin-Ups 🦁",
-        list: [
-          {
-            action: "7 strict pull-ups in one set",
-            isDone: true,
-            haveSideMSG: false,
-            message: "",
-          },
-          {
-            action: "10 strict pull-ups in one set",
-            isDone: false,
-            haveSideMSG: false,
-            message: "",
-          },
-          {
-            action: "16 strict pull-ups in one set",
-            isDone: false,
-            haveSideMSG: false,
-            message: "",
-          },
-          {
-            action: "20 strict pull-ups in one set",
-            isDone: false,
-            haveSideMSG: false,
-            message: "",
-          },
-          {
-            action: "7 strict chin-ups",
-            isDone: true,
-            haveSideMSG: false,
-            message: "",
-          },
-          {
-            action: "10 strict chin-ups",
-            isDone: false,
-            haveSideMSG: false,
-            message: "",
-          },
-          {
-            action: "16 strict chin-ups",
-            isDone: false,
-            haveSideMSG: false,
-            message: "",
-          },
-          {
-            action: "20 strict chin-ups",
-            isDone: false,
-            haveSideMSG: false,
-            message: "",
-          },
-          {
-            action: "7 Weighted pull-ups with 5kg 🎒",
-            isDone: false,
-            haveSideMSG: false,
-            message: "",
-          },
-          {
-            action: "7 Weighted pull-ups with 10kg",
-            isDone: false,
-            haveSideMSG: false,
-            message: "",
-          },
-        ],
-      },
-
-      {
-        name: "Dips 💥",
-        list: [
-          {
-            action: "7 straight bar dips in one go",
-            isDone: true,
-            haveSideMSG: true,
-            message: "14-01-2025",
-          },
-          {
-            action: "10 straight bar dips in one go",
-            isDone: false,
-            haveSideMSG: false,
-            message: "",
-          },
-          {
-            action: "7 parallel bar dips",
-            isDone: true,
-            haveSideMSG: false,
-            message: "",
-          },
-          {
-            action: "10 parallel bar dips",
-            isDone: false,
-            haveSideMSG: false,
-            message: "",
-          },
-          {
-            action: "16 parallel bar dips",
-            isDone: false,
-            haveSideMSG: false,
-            message: "",
-          },
-          {
-            action: "20 parallel bar dips",
-            isDone: false,
-            haveSideMSG: false,
-            message: "",
-          },
-          {
-            action: "7 Korean dips (with form)",
-            isDone: false,
-            haveSideMSG: false,
-            message: "",
-          },
-        ],
-      },
-
-      {
-        name: "Leg Strength 🦵🔥",
-        list: [
-          {
-            action: "Perform 10 full Pistol Squats (5 per leg)",
-            isDone: false,
-            haveSideMSG: false,
-            message: "",
-          },
-          {
-            action: "Perform 20 full Pistol Squats (10 per leg)",
-            isDone: false,
-            haveSideMSG: false,
-            message: "",
-          },
-          {
-            action: "7 explosive jumping lunges per leg",
-            isDone: false,
-            haveSideMSG: false,
-            message: "",
-          },
-          {
-            action: "16 explosive jumping lunges per leg",
-            isDone: false,
-            haveSideMSG: false,
-            message: "",
-          },
-          {
-            action: "1-minute wall sit without breaking form 🧱",
-            isDone: false,
-            haveSideMSG: false,
-            message: "",
-          },
-          {
-            action: "3-minute wall sit without breaking form",
-            isDone: false,
-            haveSideMSG: false,
-            message: "",
-          },
-          {
-            action: "50 Squats in one go",
-            isDone: true,
-            haveSideMSG: false,
-            message: "",
-          },
-          {
-            action: "70 Squats in one go",
-            isDone: true,
-            haveSideMSG: false,
-            message: "",
-          },
-          {
-            action: "100 Squats in one go",
-            isDone: false,
-            haveSideMSG: false,
-            message: "",
-          },
-          {
-            action: "150 Squats in one go",
-            isDone: false,
-            haveSideMSG: false,
-            message: "",
-          },
-          {
-            action: "200 Squats in one go",
-            isDone: false,
-            haveSideMSG: false,
-            message: "",
-          },
-        ],
-      },
-
-      {
-        name: "Dynamic Skills 🚀",
-        list: [
-          {
-            action: "Perform a Muscle-Up (strict form)",
-            isDone: false,
-            haveSideMSG: false,
-            message: "",
-          },
-          {
-            action: "7 Muscle-Up in one go",
-            isDone: false,
-            haveSideMSG: false,
-            message: "",
-          },
-          {
-            action: "16 Muscle-Up in one go",
-            isDone: false,
-            haveSideMSG: false,
-            message: "",
-          },
-          {
-            action: "Achieve a 360° Bar Spin on pull-up bars 🌪️",
-            isDone: false,
-            haveSideMSG: false,
-            message: "",
-          },
-          {
-            action: "Perform 2 Clapping Muscle-Up 👏💪",
-            isDone: false,
-            haveSideMSG: false,
-            message: "",
-          },
-          {
-            action: "Perform 2 One-Arm Pull-Up 🦾",
-            isDone: false,
-            haveSideMSG: false,
-            message: "",
-          },
-        ],
-      },
-
-      {
-        name: "Static Holds and Hanging 🧗‍♂️",
-        list: [
-          {
-            action: "Hold a Handstand against the wall for 1 minute 🤸‍♂️",
-            isDone: true,
-            haveSideMSG: false,
-            message: "",
-          },
-          {
-            action: "Perform a Freestanding Handstand for 10 seconds",
-            isDone: false,
-            haveSideMSG: false,
-            message: "",
-          },
-          {
-            action: "Hold a Planche (Tuck Planche: 15 seconds)",
-            isDone: false,
-            haveSideMSG: false,
-            message: "",
-          },
-          {
-            action: "Master the Front Lever Hold for 10 seconds 🪢",
-            isDone: false,
-            haveSideMSG: false,
-            message: "",
-          },
-          {
-            action: "Hold a Back Lever for 15 seconds",
-            isDone: false,
-            haveSideMSG: false,
-            message: "",
-          },
-          {
-            action: "Perform 30 Seconds Hanging",
-            isDone: true,
-            haveSideMSG: false,
-            message: "",
-          },
-          {
-            action: "Perform 1 minute of Hanging",
-            isDone: true,
-            haveSideMSG: false,
-            message: "",
-          },
-          {
-            action: "Perform 3 minutes of Hanging",
-            isDone: false,
-            haveSideMSG: false,
-            message: "",
-          },
-          {
-            action: "Perform 5 minutes of Hanging",
-            isDone: false,
-            haveSideMSG: false,
-            message: "",
-          },
-          {
-            action: "Perform 30 seconds of one-arm Hanging",
-            isDone: false,
-            haveSideMSG: false,
-            message: "",
-          },
-          {
-            action: "Perform 1 minute of one-arm Hanging",
-            isDone: false,
-            haveSideMSG: false,
-            message: "",
-          },
-          {
-            action: "Hold a 2-minute plank 🛡️",
-            isDone: false,
-            haveSideMSG: false,
-            message: "",
-          },
-        ],
-      },
-
-      {
-        name: "Flexibility & Mobility 🧘‍♂️",
-        list: [
-          {
-            action: "Perform a deep bridge with proper form 🌈",
-            isDone: true,
-            haveSideMSG: true,
-            message: "Completed on 2024-01-10",
-          },
-          {
-            action: "Achieve the front splits ✨",
-            isDone: false,
-            haveSideMSG: false,
-            message: "",
-          },
-          {
-            action: "Perform the Full Split 🎯",
-            isDone: false,
-            haveSideMSG: false,
-            message: "",
-          },
-          {
-            action: "Master the pancake stretch (torso to the floor)",
-            isDone: false,
-            haveSideMSG: false,
-            message: "",
-          },
-          {
-            action:
-              "Complete a perfect Jefferson Curl with full range of motion",
-            isDone: false,
-            haveSideMSG: false,
-            message: "Completed on 2025-01-09",
-          },
-        ],
-      },
-
-      {
-        name: "Strength Training Goals 🏋️‍♂️",
-        list: [
-          {
-            action: "Bench press your body weight",
-            isDone: false,
-            haveSideMSG: false,
-            message: "Completed on 2025-01-08",
-          },
-          {
-            action: "Squat 1.5x your body weight",
-            isDone: false,
-            haveSideMSG: false,
-            message: "",
-          },
-          {
-            action: "Deadlift 2x your body weight 💪",
-            isDone: false,
-            haveSideMSG: false,
-            message: "Completed on 2025-01-07",
-          },
-          {
-            action: "Overhead press half your body weight",
-            isDone: false,
-            haveSideMSG: false,
-            message: "",
-          },
-          {
-            action: "Perform a clean & jerk",
-            isDone: false,
-            haveSideMSG: false,
-            message: "",
-          },
-          {
-            action: "Perform a weighted Russian twist with a 10kg plate 🌀",
-            isDone: false,
-            haveSideMSG: false,
-            message: "Completed on 2025-01-06",
-          },
-        ],
-      },
-
-      {
-        name: "Athletic Challenges 🏃‍♂️💨",
-        list: [
-          {
-            action: "Jump rope for 5 minutes without stopping ⏱️",
-            isDone: false,
-            haveSideMSG: false,
-            message: "Completed on 2025-01-05",
-          },
-          {
-            action: "Sprint 100m in under 15 seconds ⚡",
-            isDone: false,
-            haveSideMSG: false,
-            message: "Completed on 2025-01-04",
-          },
-          {
-            action: "Run 2 km in one go",
-            isDone: false,
-            haveSideMSG: false,
-            message: "",
-          },
-          {
-            action: "Run 5 km in one go 🏞️",
-            isDone: false,
-            haveSideMSG: false,
-            message: "",
-          },
-          {
-            action: "Run 10 km in one go 🏅",
-            isDone: false,
-            haveSideMSG: false,
-            message: "",
-          },
-        ],
-      },
-    ],
-  },
-
-  // 2 - Life Skills Bucket List 🧠
-  {
-    name: "Life Skills Bucket List 🧠",
+    name: "Life Skills Bucket List ð§ ",
     haveSubTypes: false,
     list: [
       {
-        action: "Learn self-defense techniques like Krav Maga or Boxing 🥊",
+        action: "Learn self-defense techniques like Krav Maga or Boxing ð¥",
         isDone: false,
         haveSideMSG: false,
         message: "",
       },
       {
         action:
-          "Learn driving → Bike, Car, Tractor, Truck, Plane (Cessna 172 Skyhawk, Cirrus SR22) 🚗✈️",
+          "Learn driving â Bike, Car, Tractor, Truck, Plane (Cessna 172 Skyhawk, Cirrus SR22) ðâï¸",
         isDone: false,
         haveSideMSG: true,
-        message: "Bike ✔️, ",
+        message: "Bike âï¸, ",
       },
     ],
   },
@@ -527,7 +27,7 @@ const myBucketList = [
     haveSubTypes: true,
     Types: [
       {
-        name: "Himalayan Adventures 🏔️",
+        name: "Himalayan Adventures ðï¸",
         list: [
           {
             action: "Leh-Ladakh (Jammu & Kashmir)",
@@ -557,7 +57,7 @@ const myBucketList = [
       },
 
       {
-        name: "Beach Vibes 🌊",
+        name: "Beach Vibes ð",
         list: [
           {
             action: "Goa",
@@ -581,7 +81,7 @@ const myBucketList = [
       },
 
       {
-        name: "Historical & Cultural Sites 🏛️",
+        name: "Historical & Cultural Sites ðï¸",
         list: [
           {
             action: "Ram Setu",
@@ -605,7 +105,7 @@ const myBucketList = [
       },
 
       {
-        name: "Spiritual Retreats 🙏",
+        name: "Spiritual Retreats ð",
         list: [
           {
             action: "Ram Setu",
@@ -620,7 +120,7 @@ const myBucketList = [
             message: "",
           },
           {
-            action: "Rishikesh (Uttarakhand) → Maa Ganga",
+            action: "Rishikesh (Uttarakhand) â Maa Ganga",
             isDone: false,
             haveSideMSG: false,
             message: "",
@@ -632,13 +132,13 @@ const myBucketList = [
             message: "",
           },
           {
-            action: "Amritsar (Punjab) → Golden Temple",
+            action: "Amritsar (Punjab) â Golden Temple",
             isDone: false,
             haveSideMSG: false,
             message: "",
           },
           {
-            action: "Tiruvannamalai (Tamil Nadu) → Sacred Mountain",
+            action: "Tiruvannamalai (Tamil Nadu) â Sacred Mountain",
             isDone: false,
             haveSideMSG: false,
             message: "",
@@ -647,7 +147,7 @@ const myBucketList = [
       },
 
       {
-        name: "Adventure Sports & Activities 🏄‍♂️",
+        name: "Adventure Sports & Activities ðââï¸",
         list: [
           {
             action: "Hike a mountain",
@@ -656,14 +156,14 @@ const myBucketList = [
             message: "",
           },
           {
-            action: "Experience skydiving and bungee jumping 🪂",
+            action: "Experience skydiving and bungee jumping ðª",
             isDone: false,
             haveSideMSG: false,
             message: "",
           },
           {
             action:
-              "Nainital (Uttarakhand) → Boating and trekking around the scenic Naini Lake 🚤",
+              "Nainital (Uttarakhand) â Boating and trekking around the scenic Naini Lake ð¤",
             isDone: false,
             haveSideMSG: false,
             message: "",
@@ -674,23 +174,23 @@ const myBucketList = [
   },
 
   {
-    name: "Creative Bucket List 🎨",
+    name: "Creative Bucket List ð¨",
     haveSubTypes: false,
     list: [
       {
-        action: "Create a personal portfolio and personal website 🌐",
+        action: "Create a personal portfolio and personal website ð",
         isDone: false,
         haveSideMSG: false,
         message: "",
       },
       {
-        action: "Start writing articles ✍️",
+        action: "Start writing articles âï¸",
         isDone: false,
         haveSideMSG: false,
         message: "",
       },
       {
-        action: "Learn to play an instrument: Flute, Guitar, Piano 🎶",
+        action: "Learn to play an instrument: Flute, Guitar, Piano ð¶",
         isDone: false,
         haveSideMSG: false,
         message: "",
@@ -699,23 +199,23 @@ const myBucketList = [
   },
 
   {
-    name: "Financial Bucket List 💰",
+    name: "Financial Bucket List ð°",
     haveSubTypes: false,
     list: [
       {
-        action: "Learn stock market investing and grow a portfolio 📈",
+        action: "Learn stock market investing and grow a portfolio ð",
         isDone: false,
         haveSideMSG: false,
         message: "",
       },
       {
-        action: "Start a side hustle that generates passive income 💻🤑",
+        action: "Start a side hustle that generates passive income ð»ð¤",
         isDone: false,
         haveSideMSG: false,
         message: "",
       },
       {
-        action: "Buy my dream gadget, car, or house 🏠🚘💻",
+        action: "Buy my dream gadget, car, or house ð ðð»",
         isDone: false,
         haveSideMSG: false,
         message: "",
@@ -724,14 +224,14 @@ const myBucketList = [
   },
 
   {
-    name: "Tech & Learning Bucket List 🤖",
+    name: "Tech & Learning Bucket List ð¤",
     haveSubTypes: true,
     Types: [
       {
         name: "AI Agents",
         list: [
           {
-            action: "Chakra → Desktop AI that helps to make my work easy. 🧑‍💻",
+            action: "Chakra â Desktop AI that helps to make my work easy. ð§âð»",
             isDone: false,
             haveSideMSG: false,
             message: "",
@@ -740,7 +240,7 @@ const myBucketList = [
       },
 
       {
-        name: "open-source projects. 🌐",
+        name: "open-source projects. ð",
         list: [
           {
             action: "Contribute to small OSP",
@@ -797,13 +297,13 @@ const myBucketList = [
         name: "Hackathons",
         list: [
           {
-            action: "Win a local hackathon 🏆",
+            action: "Win a local hackathon ð",
             isDone: false,
             haveSideMSG: false,
             message: "",
           },
           {
-            action: "Win a global hackathon 🌍",
+            action: "Win a global hackathon ð",
             isDone: false,
             haveSideMSG: false,
             message: "",
@@ -821,13 +321,13 @@ const myBucketList = [
             message: "",
           },
           {
-            action: "Achieve the first rank in a global hackathon 🥇",
+            action: "Achieve the first rank in a global hackathon ð¥",
             isDone: false,
             haveSideMSG: false,
             message: "",
           },
           {
-            action: "Win a cash prize 💵",
+            action: "Win a cash prize ðµ",
             isDone: false,
             haveSideMSG: false,
             message: "",
@@ -857,7 +357,7 @@ const myBucketList = [
             message: "",
           },
           {
-            action: "Win a cash prize 💵",
+            action: "Win a cash prize ðµ",
             isDone: false,
             haveSideMSG: false,
             message: "",
@@ -869,7 +369,7 @@ const myBucketList = [
         name: "Other",
         list: [
           {
-            action: "Set up my perfect tech setup 🎮💻",
+            action: "Set up my perfect tech setup ð®ð»",
             isDone: false,
             haveSideMSG: false,
             message: "",
