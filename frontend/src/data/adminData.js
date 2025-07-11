@@ -126,32 +126,30 @@ const SocialLinks = {
 };
 
 const WhatIamDoingNow = {
-  lastUpdate: "January 10, 2025",
+  lastUpdate: "July 8, 2025",
   list: [
-    "Crafting Strong Resume",
-    "Weight-lifting seven times/week",
-    "Developing some unique projects",
-    "Playing Nothing - ",
-    "Reading Corporate Chanakya, Chanakya 100 Best Sutras",
+    "Learning business and how to improve it by solving and watching case studies",
+    "Exploring what I genuinely love - because that matters the most",
+    "Engineering solutions for real-world problems to sharpen decision-making and execution instincts",
   ],
 };
 
 const ToolBox = {
-  tagline: "Master Your Craft with the Right Gear",
+  tagline: "Learn everything, master the one you love the most",
 
   ToolList: {
     Technologies: [
       {
         name: "Programming Languages",
-        list: ["Python", "JavaScript", "C++", "SQL"],
+        list: ["C++", "Python", "Java", "Dart", "SQL", "C", "JavaScript"],
       },
       {
         name: "Frameworks",
-        list: ["React.js", "Flask"],
+        list: ["React.js", "Next.js", "Flutter"],
       },
       {
         name: "AI/ML Libraries",
-        list: ["TensorFlow", "PyTorch", "Scikit-learn", "Hugging Face"],
+        list: ["TensorFlow", "PyTorch", "Scikit-learn", "OpenCV", "MTCNN", "ResNet"],
       },
       {
         name: "Database Technologies",
@@ -164,24 +162,12 @@ const ToolBox = {
         name: "Version Control",
         list: ["Git", "GitHub"],
       },
-      {
-        name: "IDEs/Editors",
-        list: ["VS Code", "PyCharm", "Jupyter Notebook"],
-      },
-      {
-        name: "Design Tools",
-        list: ["Canva"],
-      },
-      {
-        name: "Project Management",
-        list: ["Notion"],
-      },
     ],
 
     Hardware: [
       {
         name: "Laptop/PC",
-        list: ["Asus TUF Gaming F15"],
+        list: ["Acer Nitro 5"],
       },
       {
         name: "Development Boards",
@@ -208,11 +194,11 @@ const ToolBox = {
       },
       {
         name: "Learning Platforms",
-        list: ["Coursera", "Udemy", "Khan Academy", "YouTube"],
+        list: ["Coursera", "YouTube"],
       },
       {
         name: "Competitive Coding",
-        list: ["Codeforces", "LeetCode"],
+        list: ["Coding Ninjas", "LeetCode"],
       },
     ],
   },
@@ -220,110 +206,83 @@ const ToolBox = {
 
 const MyHobbies = [
   {
-    name: "Playing Games 🎮",
+    name: "Playing Video Games",
     message:
-      "Because who doesn't want to save the world, level up, and be a hero... all from the comfort of my couch? 😜",
+      "Because commanding chaos, making decisions under fire, and staying three moves ahead is peak leadership training - at 120 FPS. ",
   },
-
   {
-    name: "Watching Anime & Movies 🍿",
+    name: "Watching Movies",
     message:
-      "Watching epic battles and heartwarming stories, one season at a time... 😁 💥",
+      "Cinema is emotion. It rewires how I feel, think, and see the world. ",
   },
-
   {
-    name: "Going to the Gym 🏋️‍♂️",
+    name: "Listening to Music",
     message:
-      "Training for the day when my character’s strength stat finally maxes out. 💪",
-  },
-
-  {
-    name: "Running 🏃‍♂️",
-    message: "Chasing after that 'just one more level' feeling. 🏃‍♂️💨",
-  },
-
-  {
-    name: "Stargazing ✨",
-    message:
-      "Waiting for aliens to invade and just wishing my life had a cool soundtrack. 🌌",
-  },
-
-  {
-    name: "Reading 📚",
-    message:
-      "Feeding my brain with knowledge... and occasionally diving into a good fantasy novel. 📖🧙‍♂️",
-  },
-
-  {
-    name: "Investing 📈",
-    message:
-      "Trying to turn my coins into EPIC loot—except it’s real life, so no respawns. 💰",
+      "Beats + Flow = My daily energy boost and chill pill. Keeps me in my zone.",
   },
 ];
 
 const FourTierMasteryData = {
-  2024: [
+  2025: [
     {
-      name: "Primary", // Don't Change this,
-      which: "AI/ML Developer 🤖💡",
+      name: "Primary", // Don't Change this
+      which: "Product Manager",
       desc: [
-        "This is where I spend most of my time mastering Artificial Intelligence and Machine Learning to build cutting-edge solutions.",
-        "From deep learning to NLP, I’m diving into it all!",
+        "This is where I truly belong - solving problems, improving business, and building user-first solutions.",
+        "From crafting product strategies to thinking out of the box, this is what I love the most and do best.",
       ],
       skillTags: [
-        "Machine Learning",
-        "Deep Learning",
-        "Natural Language Processing (NLP)",
-        "Data Science",
-        "TensorFlow",
-        "PyTorch",
-        "Keras",
-        "Model Deployment",
-        "Data Visualization",
+        "Product Strategy",
+        "User Research",
+        "Growth Mindset",
+        "Business Thinking",
+        "Problem Solving",
+        "Wireframing",
+        "Agile Thinking",
+        "Execution",
+        "Cross-functional Collaboration",
       ],
     },
     {
-      name: "Secondary", // Don't Change this,
-      which: "Full-Stack Developer 💻🔧",
+      name: "Secondary", // Don't Change this
+      which: "Full-Stack Developer",
       desc: [
-        "Web development is my second focus! I use React for the frontend and Flask for the backend to build powerful, interactive apps that integrate AI seamlessly.",
+        "Still love building. From React to Next.js, I build clean UIs and ship scalable logic that works.",
+        "It's my builder's toolkit - always ready to experiment, iterate, and launch fast.",
       ],
       skillTags: [
         "React",
+        "Next.js",
+        "Flutter",
         "HTML5",
         "CSS3",
         "JavaScript",
-        "Flask",
         "APIs",
-        "RESTful API",
-        "Version Control",
+        "Firebase",
+        "PostgreSQL",
         "Git",
-        "GitHub",
-        "State Management",
-        "Redux",
-        "Context API",
+        "Deployment",
       ],
     },
     {
-      name: "Third", // Don't Change this,
-      which: "Competitive Programmer 🧩💪",
+      name: "Third", // Don't Change this
+      which: "-",
       desc: [
-        "I keep my problem-solving skills sharp by constantly working on data structures and algorithms. This keeps me ready for any coding challenge and tech interview. 💻⚡",
-        "In short, I like to make money and fame through competitions",
+        "I'm focused. I'd rather master what I truly enjoy than do everything halfway.",
       ],
-      skillTags: ["DSA", "Kaggle", "Leetcode weekly", "Codeforce"],
+      skillTags: [],
     },
     {
-      name: "Fourth", // Don't Change this,
-      which: "Game Development with AI 🎮🤖",
+      name: "Fourth", // Don't Change this
+      which: "-",
       desc: [
-        "Games powered by AI are more than just fun—they offer innovative ways to engage with technology.",
-        "I explore how AI can create smarter NPCs, procedural content, and dynamic gameplay.",
+        "Not chasing ranks here. Just focused on becoming world-class at what I do best.",
       ],
       skillTags: [],
     },
   ],
 };
+
 
 export {
   AllSocialMedia,
